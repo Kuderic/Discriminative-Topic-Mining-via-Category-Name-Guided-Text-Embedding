@@ -9,8 +9,8 @@ Traditional topic modeling could suffer from non-informative topics and overlapp
 To train our weakly-supervised classifier, we can follow these four steps:
 
 1. Download training dataset on news and movies (located in the `data` folder) and use `AutoPhrase` to extract high quality phrases.
-2. Write or adopt (CatE)[https://github.com/yumeng5/CatE] on segmented corpus to find representative terms for each category.
-3. Perform weakly-supervised text classification with only class label names or keywords. For this, we will use (WestClass)[https://github.com/yumeng5/WeSTClass]
+2. Write or adopt [CatE](https://github.com/yumeng5/CatE) on segmented corpus to find representative terms for each category.
+3. Perform weakly-supervised text classification with only class label names or keywords. For this, we will use [WestClass](https://github.com/yumeng5/WeSTClass)
 4. Test your method on two datasets. Investigate their output and submit your result.
 
 
